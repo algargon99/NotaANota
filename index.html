@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nota a nota</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script text="text-javascript" src="./js/bootstrap.bundle.js"></script>
+</head>
+
+<body>
+  <nav id="navbar" class="navbar navbar-expand navbar-dark bg-secondary">
+    <div class="container-fluid">
+      <a class="navbar-brand letra nombre" href="index.html">
+        <img src="images/logo.png" id="logo">
+        <span class="p-2">NOTA A NOTA</span>
+      </a>
+
+      <ul class="navbar-nav me-auto ">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            Instrumentos
+          </a>
+          <ul id="dropdown-nav" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item nav-link" href="vientometal.html">Vientos metal</a></li>
+            <li><a class="dropdown-item nav-link" href="vientomadera.html">Vientos madera</a></li>
+            <li><a class="dropdown-item nav-link" href="cuerda.html">Cuerda</a></li>
+            <li><a class="dropdown-item nav-link" href="percusion.html">Percusi&oacute;n</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="preguntas.html">Preguntas y respuestas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="info.html">Sobre este proyecto</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+        <button class="btn btn-success" type="button">Buscar</button>
+      </form>
+    </div>
+  </nav>
+
+  <div id="container" class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item letra">NOTA A NOTA</li>
+        <li class="breadcrumb-item active" aria-current="page">Instrumentos</li>
+      </ol>
+    </nav>
+    <p class="h1 dotted">Instrumentos</p>
+    <article id="info">
+      <div class="row" class="text">
+        <div class="col-1 col-sm-1 col-lg-2"></div>
+        <div class="row col-10 col-sm-10 col-lg-8">
+          <div class="col-12 col-md-6 col-xl-3">
+            <p>Los instrumentos musicales son herramientas utilizadas para producir sonidos que son organizados y
+              estructurados en una variedad de formas para crear la m&uacute;sica. Hay una gran cantidad de instrumentos
+              diferentes
+              que se utilizan en todo el mundo, cada uno con su propio sonido, t&eacute;cnica y estilo musical asociado.
+            </p>
+          </div>
+
+          <div class="col-12 col-md-6 col-xl-3">
+            <p>Los instrumentos se clasifican en diferentes categor&iacute;as, seg&uacute;n la forma en que producen el
+              sonido. Por
+              ejemplo,
+              algunos instrumentos son de cuerda, como el viol&iacute;n, mientras que otros son de viento, como la
+              flauta.
+              Tambi&eacute;n
+              hay instrumentos de percusi&oacute;n, como los tambores, y otros que son electr&oacute;nicos, como los
+              sintetizadores.
+            </p>
+          </div>
+
+          <div class="col-12 col-md-6 col-xl-3">
+            <p>Cada instrumento tiene sus propias caracter&iacute;sticas &uacute;nicas, como la forma en que se
+              sostiene, se toca y se mantiene. Tambi&eacute;n existen diferentes t&eacute;cnicas para tocar cada
+              instrumento, que var&iacute;an
+              desde la forma en que se sostiene el instrumento hasta la manera en que se presionan las teclas o se
+              rasguean las cuerdas.</p>
+          </div>
+
+          <div class="col-12 col-md-6 col-xl-3">
+            <p>El conocimiento de los instrumentos musicales es fundamental para cualquier persona interesada en la
+              m&uacute;sica.
+              Adem&aacute;s, aprender a tocar un instrumento puede ser una actividad muy gratificante y enriquecedora,
+              ya que
+              permite a las personas expresarse a trav&eacute;s de la m&uacute;sica y explorar su creatividad.</p>
+          </div>
+        </div>
+        <div class="col-1 col-md-1 col-lg-2"></div>
+      </div>
+    </article>
+
+    <section>
+      <div class="row g-0">
+        <div class="col-1 col-sm-1 col-lg-2 "></div>
+        <div id="carouselVientoMetal" class="carousel slide col-10 col-md-5 col-lg-4 ">
+          <p class="h3 dotted">Vientos metales</p>
+          <div class="carousel-inner">
+            <a href="vientometal.html">
+              <div class="carousel-item active">
+                <img src="images/trompeta.png" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="images/tuba.png" id="tuba" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="images/trombon.png" class="d-block w-100">
+              </div>
+            </a>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselVientoMetal"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselVientoMetal"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="d-md-none d-block col-1"></div>
+        <div class="d-md-none d-block col-1"></div>
+        <div id="carouselVientoMadera" class="carousel slide col-10 col-md-5 col-lg-4 ">
+          <p class="h3 dotted">Vientos madera</p>
+          <div class="carousel-inner">
+            <a href="vientomadera.html">
+              <div class="carousel-item active">
+                <img src="images/clarinete.png" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="images/flauta.png" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="images/fagot.png" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="images/oboe.png" class="d-block w-100">
+              </div>
+            </a>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselVientoMadera"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselVientoMadera"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="col-3 col-sm-1 col-lg-2 "></div>
+      </div>
+    </section>
+    <section>
+      <div class="row g-0">
+        <div class="col-1 col-sm-1 col-lg-2 "></div>
+        <div id="carouselCuerda" class="carousel slide col-10 col-md-5 col-lg-4 ">
+          <p class="h3 dotted">Cuerda</p>
+          <div class="carousel-inner">
+            <a href="cuerda.html">
+              <div class="carousel-item active">
+                <img src="images/piano.png" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="images/guitarra.png" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="images/arpa.png" id="arpa" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="images/violin.png" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="images/violoncelo.png" id="violoncelo" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="images/contrabajo.png" class="d-block w-100">
+              </div>
+            </a>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselCuerda" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselCuerda" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="d-md-none d-block col-1"></div>
+        <div class="d-md-none d-block col-1"></div>
+        <div id="carouselPercusion" class="carousel slide col-10 col-md-5 col-lg-4 ">
+          <p class="h3 dotted">Percusi&oacute;n</p>
+          <div class="carousel-inner">
+            <a href="percusion.html">
+              <div class="carousel-item active">
+                <img src="images/tambor.png" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="images/bombo.png" class="d-block w-100">
+              </div>
+              <div class="carousel-item">
+                <img src="images/xilofono.png" class="d-block w-100">
+              </div>
+            </a>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselPercusion" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselPercusion" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="col-3 col-sm-1 col-lg-2 "></div>
+      </div>
+    </section>
+  </div>
+  <footer class="py-3 navbar-dark bg-secondary">
+    <div class="text-center">
+      <span>&copy; 2023 | Nota a nota | Alberto Garc&iacute;a Gonz&aacute;lez</span>
+    </div>
+  </footer>
+</body>
+
+</html>

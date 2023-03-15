@@ -1,0 +1,89 @@
+.carousel img {
+  height: 300px;
+  width: 600px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+#tuba,
+#arpa,
+#violonchelo {
+  width: 50% !important;
+  margin-left: 25%;
+}
+
+body {
+  background: url(../images/orchestra.PNG) no-repeat fixed center;
+  background-size: cover;
+}
+
+
+
+#container {
+  background-color: white;
+  padding: 50px 50px;
+  min-height: 100vh;
+}
+
+#logo {
+  width: 50px;
+  height: 50px;
+}
+
+#dropdown-nav {
+  background-color: lightgrey;
+}
+
+#dropdown-nav a {
+  color: black;
+}
+
+#dropdown-nav a:hover {
+  background-color: rgba(251, 238, 238, 0.837);
+}
+
+.dotted {
+  display: inline-block;
+  padding: 20px;
+  position: relative;
+}
+
+.dotted::before {
+  display: block;
+  content: '';
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAMAAABFaP0WAAAABlBMVEUAAAD///+l2Z/dAAAAAXRSTlMAQObYZgAAAA5JREFUCNdjYGRgYGQEAAAOAATa5WfvAAAAAElFTkSuQmCC);
+  background-size: 2px 2px;
+}
+
+.nombre{
+  margin-bottom: 0px;
+  color: white;
+}
+
+.letra{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.text{
+  padding: 20px;
+}
+
+#violonchelo, #tuba{
+  width: 350px;
+}
+
+footer span{
+  color: rgba(255, 255, 255, 0.55);
+}
+

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nota a nota</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script text="text-javascript" src="./js/bootstrap.bundle.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+
+    <nav id="navbar" class="navbar navbar-expand navbar-dark bg-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand letra nombre" href="index.html">
+                <img src="images/logo.png" id="logo">
+                <span class="p-2">NOTA A NOTA</span>
+            </a>
+
+            <ul class="navbar-nav me-auto ">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Instrumentos
+                    </a>
+                    <ul id="dropdown-nav" class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item nav-link" href="vientometal.html">Vientos metal</a></li>
+                        <li><a class="dropdown-item nav-link" href="vientomadera.html">Vientos madera</a></li>
+                        <li><a class="dropdown-item nav-link" href="cuerda.html">Cuerda</a></li>
+                        <li><a class="dropdown-item nav-link" href="percusion.html">Percusi&oacute;n</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="preguntas.html">Preguntas y respuestas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="info.html">Sobre este proyecto</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-success" type="button">Buscar</button>
+            </form>
+        </div>
+    </nav>
+
+    <div id="container" class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item letra">NOTA A NOTA</li>
+                <li class="breadcrumb-item active" aria-current="page">Preguntas y respuestas</li>
+            </ol>
+        </nav>
+
+        <p class="h1 dotted">Preguntas y respuestas</p>
+        <article>
+            <section>
+                <div class="alert alert-info" role="alert" id="alerta">
+                    No hay preguntas por el momento
+                </div>
+                <div id="preguntas">
+                    <ul id="lista" class="list-group"></ul>
+                </div>
+            </section>
+            <hr>
+            <section>
+                <p class="h2 dotted">Haz tus preguntas</p>
+                <div class="alert alert-danger" role="alert" id="aviso">
+                    Escribe tu pregunta
+                </div>
+                <form class="px-5">
+                    <div class="mb-3">
+                        <label for="pregunta" class="form-label">&iquest;Cu&aacute;l es tu pregunta&quest;</label>
+                        <input type="text" class="form-control" id="pregunta">
+                    </div>
+
+                    <button type="button" id="btnPregunta" class="btn btn-primary">Enviar pregunta</button>
+                </form>
+            </section>
+        </article>
+    </div>
+    <footer class="py-3 navbar-dark bg-secondary">
+        <div class="text-center">
+            <span>&copy; 2023 | Nota a nota | Alberto Garc&iacute;a Gonz&aacute;lez</span>
+        </div>
+    </footer>
+
+    <script>
+        
+    </script>
+</body>
+
+</html>
