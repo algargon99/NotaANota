@@ -1,5 +1,7 @@
 $(document).ready(function () {
 
+
+    $('#tool').tooltip();
     $("#alerta").show();
     $("#preguntas").hide();
     $("#aviso").hide();
@@ -16,7 +18,7 @@ $(document).ready(function () {
             $("#aviso").hide();
             $("#preguntas").show();
             preguntas++;
-            $("#badge").text(preguntas) ;
+            $("#badge").text(preguntas);
 
             $("#lista").append("<li class='pregunta list-group-item row d-flex align-items-center'><span class='col-5 col-sm-6 col-lg-7'>" + pregunta + "</span><span class='col-3 col-sm-3 alert alert-danger mb-0'>Sin respuesta</span><span class='col-1 col-sm-1 col-lg-1'> &nbsp; </span><button class='col-3 col-sm-2 col-lg-1 btn btn-danger borrar'>Borrar</button></li>");
             console.log("Estoy pulsando");
